@@ -16,21 +16,15 @@ var mic;
 function setup() {
   createCanvas(windowWidth, windowHeight);
   
-  //background(myColor[0]);
-  
   mic = new p5.AudioIn();
   mic.start();
   
-
-  //startingColor = color('#8a5f3c')
-  //endingColor = color('#c15f77')
 }
 
 
 function draw() {
 
   background(myColor[0]);
-
   var myVolume = mic.getLevel();
   
   //snow
@@ -39,7 +33,6 @@ function draw() {
          var rx = random() * width;
          var ry = random() * height;
          var rr = random() * 100;
-    //ellipse(rx,ry,rr);
     textSize(rr);
     text("*",rx,ry);
 
@@ -93,41 +86,19 @@ function draw() {
   stroke(myColor[4]);
   strokeWeight(18);  
   line(-35,-20,35,-20); 
+ 
   
-  
-  //eyes white  
-  //  noStroke;
-  //  fill(255);
-  //  ellipse(-14,10,mySize+10);
-  //    ellipse(14,10,mySize+10);
-
-  //eyes black
-  //  strokeWeight(mySize);
-  //  stroke(0);
-  //  line(-11,10,-18,10);
-  //  line(11,10,18,10);
-
-
-   
   //nose
   stroke(myColor[1]);
   strokeWeight(mySizenose*4+5)
   line(0,40,0,55);
   
   
-    
-    
   //tree    
   fill(myColor[7]); 
   noStroke();
     
-  //tree-100 
-  //quad(-100,0-100-mySizehat*2+10,
-  //     -50,-50-100-mySizehat*2+10,
-  //     50,-50-100-mySizehat*2+10,
-  //     100,0-100-mySizehat*2+10);
-    
-  //tree-50 -25
+
   quad(-100+20,0-50-mySizehat*9+40,
        -50+30,-50-50-mySizehat*9+40,
        50-30,-50-50-mySizehat*9+40,
@@ -158,7 +129,7 @@ function draw() {
        100+160,0+150);
     
   
-      //eyes white  
+  //eyes white  
     noStroke;
     fill(255);
     ellipse(-14,10,mySizeeye+10);

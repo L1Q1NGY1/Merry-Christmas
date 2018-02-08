@@ -1,11 +1,11 @@
-var myColor = ['#826B85',//0. blue
+var myColor = ['#cec8da',//0. blue
                '#F32B1A', //1. red
                '#603222',//2. brown
                '#FEC07D',//3. skindark
                '#FFFFFF',//4.white
                '#FEC07D',//5. skindark
                '#F9E1D8',//6.skin
-               '#BACB69',//7.treelight
+               '#579c59',//7.treelight
                '#A0A067',//8.treedark
                '#5D4B5D'//9.trunk
                ]
@@ -45,7 +45,7 @@ function draw() {
   text("* Merry Chrismas *",width/2,height*4/4.7);
   textSize(22);
   fill(myColor[6]);
-  text("Where is Santa? (try music)",width/2,height*4/5);
+  text("Where is Santa? (try play a song)",width/2,height*4/5);
   
     
   //var ellipseColor = lerpColor (startingColor,endingColor,myVolume*5); 

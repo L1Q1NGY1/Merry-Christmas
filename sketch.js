@@ -42,7 +42,7 @@ function draw() {
   textSize(28);
   fill(255);
   noStroke();
-  text("* Merry Chrismas *",width/2,height*4/4.7);
+  text("* Merry Christmas *",width/2,height*4/4.7);
   textSize(22);
   fill(myColor[6]);
   text("Where is Santa? (try play a song)",width/2,height*4/5);

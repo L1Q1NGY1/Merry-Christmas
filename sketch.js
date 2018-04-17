@@ -1,11 +1,11 @@
-var myColor = ['#cec8da',//0. blue
-               '#F32B1A', //1. red
+var myColor = ['#242c90',//0. blue
+               '#ec1d21', //1. red
                '#603222',//2. brown
                '#FEC07D',//3. skindark
-               '#FFFFFF',//4.white
+               '#e9e9e9',//4.white
                '#FEC07D',//5. skindark
-               '#F9E1D8',//6.skin
-               '#579c59',//7.treelight
+               '#fadae5',//6.skin
+               '#06b186',//7.treelight
                '#A0A067',//8.treedark
                '#5D4B5D'//9.trunk
                ]

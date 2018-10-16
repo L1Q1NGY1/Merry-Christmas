@@ -1,5 +1,5 @@
 var myColor = ['#6b5abd',//0. blue
-               '#aa061f', //1. red
+               '#c51162', //1. red
                '#603222',//2. brown
                '#FEC07D',//3. skindark
                '#e9e9e9',//4.white

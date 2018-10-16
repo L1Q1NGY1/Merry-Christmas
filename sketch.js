@@ -5,7 +5,7 @@ var myColor = ['#6b5abd',//0. blue
                '#e9e9e9',//4.white
                '#FEC07D',//5. skindark
                '#fadae5',//6.skin
-               '#90ffc7',//7.treelight
+               '#03dac6',//7.treelight
                '#A0A067',//8.treedark
                '#5D4B5D'//9.trunk
                ]

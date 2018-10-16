@@ -38,7 +38,7 @@ function draw() {
 
   //text
   textAlign(CENTER);
-  textFont('roboto');
+  textFont('Avenir');
   textSize(25);
   fill(255);
   noStroke();

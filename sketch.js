@@ -42,10 +42,10 @@ function draw() {
   textSize(25);
   fill(255);
   noStroke();
-  text("* MERRY CHRISTMAS *",width/2,height*4/4.45);
-  textSize(14);
+  text("* MERRY CHRISTMAS *",width/2,height*4/4.7);
+  textSize(16);
   fill(myColor[4]);
-  text("Where is Santa? (try play a song)",width/2,height*4/4.8);
+  text("Where is Santa? (play a song)",width/2,height*4/5);
   
     
   //var ellipseColor = lerpColor (startingColor,endingColor,myVolume*5); 
